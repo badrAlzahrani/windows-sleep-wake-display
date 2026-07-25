@@ -1,5 +1,19 @@
 # Windows Sleep-Mode Wake & Display
 
+**Run your scheduled tasks, automations, and workflows on time — without leaving your PC running 24/7.**
+
+Got a nightly job, a scheduled automation, or a workflow that has to fire at a
+set time? The usual "fix" is to just never let your machine sleep — burning
+power all night so one task can run for two minutes. This tool lets your PC
+**sleep normally and wake itself only when the work needs to happen**.
+
+There's a catch Windows never solved: it *can* wake a sleeping PC on a timer,
+but on an unattended wake it leaves the **screen black** until you physically
+touch the mouse or keyboard — which breaks any automation that needs a live,
+lit desktop. This tool fixes exactly that: it registers a daily wake task that
+wakes the machine **and forces the screen on**, so your automation runs on a
+real, visible desktop while you sleep.
+
 **Wake a sleeping Windows PC on a daily schedule — and actually turn the screen on.**
 
 Windows can wake a sleeping PC with a Task Scheduler wake timer, but on an
@@ -7,7 +21,7 @@ Windows can wake a sleeping PC with a Task Scheduler wake timer, but on an
 This tool registers a daily wake task whose action generates a tiny synthetic
 mouse movement, forcing the screen on. Useful for unattended nightly jobs that
 need a live, lit desktop (automation that drives a visible app, screen capture,
-etc.).
+scheduled data syncs, RPA-style workflows, etc.).
 
 *(العربية بالاسفل)*
 
@@ -81,13 +95,26 @@ Licensed under MIT.
 
 # ايقاظ ويندوز من وضع النوم واضاءة الشاشة
 
+**شغّل مهامك المجدولة واتمتتك وسير عملك في وقتها — دون ان تترك جهازك يعمل 24 ساعة.**
+
+عندك مهمة ليلية، او اتمتة مجدولة، او workflow لازم يشتغل في وقت محدد؟ الحل الشائع
+هو ان تمنع جهازك من النوم اطلاقا — فيستهلك الكهرباء طوال الليل لتشتغل مهمة واحدة
+دقيقتين. هذه الاداة تجعل جهازك **ينام بشكل طبيعي ويستيقظ وحده فقط حين يحين وقت
+العمل**.
+
+لكن هناك عقبة لم يحلّها ويندوز: يستطيع ايقاظ الجهاز بمؤقّت، لكنه في الايقاظ غير
+المصحوب بمستخدم يُبقي **الشاشة سوداء** حتى تحرّك الفأرة او الكيبورد بنفسك — وهذا
+يكسر اي اتمتة تحتاج سطح مكتب حيّا ومضاءً. هذه الاداة تحلّ هذا بالضبط: تسجّل مهمة
+ايقاظ يومية توقظ الجهاز **وتجبر الشاشة على العمل**، فتشتغل اتمتتك على سطح مكتب
+حقيقي مرئي وانت نائم.
+
 **يوقظ جهاز ويندوز النائم في وقت محدد يوميا — ويضيء الشاشة فعلا.**
 
 يستطيع ويندوز ايقاظ الجهاز النائم عبر مؤقّت في Task Scheduler، لكنه في الايقاظ
 غير المصحوب بمستخدم يُبقي الشاشة مطفأة حتى يصل ادخال حقيقي. هذه الاداة تسجّل مهمة
 ايقاظ يومية، اجراؤها يولّد حركة فأرة صناعية دقيقة تجبر الشاشة على العمل. مفيدة
 للمهام الليلية التي تحتاج سطح مكتب حيّا ومضاءً (اتمتة تشغّل تطبيقا مرئيا، التقاط
-شاشة، وغيرها).
+شاشة، مزامنة بيانات مجدولة، سير عمل RPA، وغيرها).
 
 ## التثبيت السريع
 
