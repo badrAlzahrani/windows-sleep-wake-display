@@ -1,6 +1,6 @@
 # Windows Sleep-Mode Wake & Display
 
-**Run your scheduled tasks, automations, and workflows on time — without leaving your PC running 24/7.**
+**Run your scheduled tasks, automations, and workflows on time — without leaving your Laptop or PC running 24/7.**
 
 Got a nightly job, a scheduled automation, or a workflow that has to fire at a
 set time? The usual "fix" is to just never let your machine sleep — burning
